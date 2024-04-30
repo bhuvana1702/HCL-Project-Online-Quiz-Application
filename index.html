@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Quiz App</title>
+  <!-- link to external css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="start-screen" class="start-screen">
+    <button id="start-button">Start</button>
+  </div>
+
+  <div id="container" class="hide">
+    <h1>Quiz</h1>
+    <div class="timer-div">
+      <img src="https://uxwing.com/wp-content/themes/uxwing/download/time-and-date/stopwatch-icon.png" width="20px" />
+      <span id="timer">01:25</span>
+    </div>
+ 
+    <div id="quiz"></div>
+    <div id="result" class="result"></div>
+    <button id="submit" class="button">Submit</button>
+    <button id="retry" class="button hide">Retry</button>
+    <button id="showAnswer" class="button hide">Show Answer</button>
+  </div>
+  <!-- link to js -->
+  <script src="script.js"></script>
+</body>
+</html>
